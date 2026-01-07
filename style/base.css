@@ -1,0 +1,28 @@
+/*vamos criar as variaveis pro tema do nosso site */
+:root{
+    --background: #fff;
+    --foreground: #6E07F3;
+    --primary: #141c3a;
+    --primary-light: #cdd3eb;
+    --primary-foreground: #fff;
+    --secondary: #5be8b9;
+    --secondary-foreground: #141c3a;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 62.5%;
+}
+
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
