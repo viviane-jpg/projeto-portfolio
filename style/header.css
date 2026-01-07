@@ -30,7 +30,6 @@ header{
     height: 0.1rem;
     background-color: var(--primary);
 }
-
 header nav {
     display: none;
     flex-direction: column;
@@ -38,6 +37,14 @@ header nav {
     gap: 2rem;
     padding: 2rem;;
 }
+
+/*arrumando os links */
+header nav a {
+    font-size: 1.4rem;
+    text-decoration: none;
+    color: var(--primary)
+}
+
 @media(width > 600px){
     header{
         flex-direction: row;
