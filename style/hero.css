@@ -18,7 +18,30 @@
 .hero-avatar{
     display: block;
     width: 12rem;
-    height: auto; /*altura para ficar proporcional */
+    height: auto; 
     margin: auto;
     margin-bottom: 5rem;
 }
+.hero-device{
+    display: block;
+    width: 100%;
+    max-width: 80rem;
+    height: auto;
+    margin: auto;
+}
+
+
+@media(width > 600px){
+    .hero h1{
+        font-size: 4rem;
+    }
+
+    .hero h2{
+        font-size: 2rem;
+    }
+
+    .hero-avatar{
+        width: 20rem;
+    }
+}
+
