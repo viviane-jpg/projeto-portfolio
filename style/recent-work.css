@@ -57,29 +57,37 @@
 .recent-work .item .image {
     width: 100%;
     height: auto;
+    /*vamos deixar mais suave */
+    transition: all ease .5s;
 }
-/*vamos começar a trabalhar com overlay */
 .recent-work .item .overlay{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     position: absolute;
-    inset: 0 0 0 0;/*é a mesma coisa que 
-    top: 0, left: 0, bottom: 0 etc */
+    inset: 0 0 0 0;
     background-color: var(--primary);
     color: var(--primary-foreground);
     padding: 2rem;
     font-size: 1.9rem;
     line-height: 2.5rem;
+    transition: all ease .5s;
+    opacity: 0;
 }
-/*arrumando o botão */
 .recent-work .item .overlay .button{
     margin-top: 2rem;
     color: var(--primary-foreground);
     text-decoration: none;
 }
+.recent-work .item:hover .image{
+    transform: scale(1.2);
+}
 
+/*agora vamos complementar acrescentando um efeito no overlay */
+.recent-work .item:hover .overlay{
+    opacity:  1;
+}
 
 
 
