@@ -58,5 +58,29 @@
     width: 100%;
     height: auto;
 }
+/*vamos começar a trabalhar com overlay */
+.recent-work .item .overlay{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    inset: 0 0 0 0;/*é a mesma coisa que 
+    top: 0, left: 0, bottom: 0 etc */
+    background-color: var(--primary);
+    color: var(--primary-foreground);
+    padding: 2rem;
+    font-size: 1.9rem;
+    line-height: 2.5rem;
+}
+/*arrumando o botão */
+.recent-work .item .overlay .button{
+    margin-top: 2rem;
+    color: var(--primary-foreground);
+    text-decoration: none;
+}
+
+
+
 
 
