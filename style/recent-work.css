@@ -48,7 +48,6 @@
     }
 }
 
-/* GRID ITEM */
 .recent-work .item {
     position: relative;
     overflow: hidden;
@@ -57,7 +56,6 @@
 .recent-work .item .image {
     width: 100%;
     height: auto;
-    /*vamos deixar mais suave */
     transition: all ease .5s;
 }
 .recent-work .item .overlay{
@@ -83,11 +81,17 @@
 .recent-work .item:hover .image{
     transform: scale(1.2);
 }
-
-/*agora vamos complementar acrescentando um efeito no overlay */
 .recent-work .item:hover .overlay{
     opacity:  1;
 }
+
+.recent-work .seemore{
+    margin: 6rem 0;
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+
 
 
 
